@@ -11,10 +11,40 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: #fff;
     font-size: 1em;
     line-height: 1.4;
 }
+main {
+
+  margin: 15%;
+  margin-left: 10%;
+  z-index: -1;
+  width: 80%;
+  color: black;
+  background: rgba(255,255,255,0.8);
+}
+
+h1{
+    margin-left: 3%;
+}
+h2{
+    margin-left: 3%;
+    color: red;     
+}
+
+h4{
+    margin-left: 3%;
+    color: red;     
+}
+
+ul{
+    margin-left: 3%;
+}
+p{
+    margin-left: 3%;
+}
+
 
 /*
  * Remove text-shadow in selection highlight:
