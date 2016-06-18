@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "SLNTHLN";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SLNTHLN.eot");
+  src: url("../fonts/SLNTHLN.otf"), url("../fonts/SLNTHLN.ttf"); }
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  max-width: 100%; }
+
+.fullScreen {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+header {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  top: -9.5em;
+  transition: all 0.4s; }
+  header:hover {
+    top: -6em; }
+  header:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: #000;
+    -webkit-transform: skew(0deg, 5deg);
+    -moz-transform: skew(0deg, 5deg);
+    -ms-transform: skew(0deg, 5deg);
+    transform: skew(0deg, 5deg);
+    left: 0; }
+  header:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: #000;
+    -webkit-transform: skew(0deg, -5deg);
+    -moz-transform: skew(0deg, -5deg);
+    -ms-transform: skew(0deg, -5deg);
+    transform: skew(0deg, -5deg);
+    right: 0.5px; }
+  header nav ul {
+    margin: 0;
+    color: gray;
+    font-family: 'SLNTHLN';
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-bottom: 1em; }
+    header nav ul li {
+      display: inline-block;
+      padding: 0 10px; }
+      header nav ul li a {
+        color: gray;
+        text-decoration: none; }
+      header nav ul li:hover a {
+        text-decoration: none;
+        color: white; }
+  header #logo {
+    background-color: black;
+    position: relative;
+    width: 15%;
+    text-align: center;
+    min-width: 100px;
+    max-width: 100%;
+    left: 43%;
+    height: 100px;
+    top: 140px;
+    z-index: 5;
+    border-radius: 5em 0; }
+    header #logo img {
+      margin-top: -20px;
+      width: 150px; }
+
+.slider_container {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  background-color: black; }
+  .slider_container .slideContainer {
+    white-space: nowrap;
+    height: 100%; }
+    .slider_container .slideContainer .slide {
+      display: inline-block;
+      background-color: red;
+      margin-right: -4.5px;
+      vertical-align: top;
+      background-size: 100%;
+      background-position: bottom; }
+
+/*# sourceMappingURL=style.css.map */
