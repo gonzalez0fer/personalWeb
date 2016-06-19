@@ -34,9 +34,23 @@ video{
   z-index: -1;
 }
 
-h1{
+h1.social{
     margin-left: 3%;
+    display: inline-block;
+
 }
+
+h1 a{
+  text-decoration:none;
+  color:black;
+  display: inline-block;
+}
+
+h1.social:hover, h1 a:hover {color: red;}
+
+a{text-decoration: none; color:black;}
+a:hover{text-decoration: none;color: blue;}
+
 h2{
     margin-left: 3%;
     color: red;     
