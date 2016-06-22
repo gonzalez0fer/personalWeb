@@ -58,6 +58,10 @@ h1 a{
 
 h1.social:hover, h1 a:hover {color: red;}
 
+
+
+
+
 a{text-decoration: none; color:black;}
 a:hover{text-decoration: none;color: blue;}
 
@@ -100,6 +104,23 @@ img.redondo{
   overflow: hidden;
   width: 15%;
 
+}
+img.redondop{
+  border: 2px solid gray;
+  margin: 5%;
+  border-radius: 800px;
+  overflow: hidden;
+  width: 15%;
+
+}
+
+img.redondop:hover{
+  border: 3px solid red;
+}
+
+.projects{
+  position: relative;
+  margin-left: 17%;
 }
 
 /*
