@@ -15,6 +15,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+
 main {
 
   margin: 15%;
@@ -108,24 +109,27 @@ img.redondo{
   width: 15%;
 
 }
+
 img.redondop{
   border: 2px solid gray;
-  margin: 5%;
+
+  margin-top: 20%;
+  margin-left: 15%;
   border-radius: 800px;
   overflow: hidden;
-  width: 15%;
-
+  width: 10%;
+  filter:grayscale(100%) blur(2px);
+    transition: all 0.4s;
 }
 
 
 img.redondop:hover{
-  border: 3px solid red;
+  width:12%;
+  border: 5px solid yellow;
+  filter: grayscale(0.2) blur(0px)
+
 }
 
-.projects{
-
-  margin-left: 17%;
-}
 
 .selector{
 z-index: -5;
