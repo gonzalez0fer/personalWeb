@@ -38,6 +38,9 @@ a.example-image-link{
   margin: 3%;
 }
 
+.circle{
+  color:white;
+}
 
 .gale{
   margin: 3%;
@@ -114,13 +117,18 @@ img.redondop{
 
 }
 
+
 img.redondop:hover{
   border: 3px solid red;
 }
 
 .projects{
-  position: relative;
+
   margin-left: 17%;
+}
+
+.selector{
+z-index: -5;
 }
 
 /*

@@ -20,36 +20,24 @@ function init(){
 
 function handleClick(){
     var slide_target = 0;
-    if ($(this).parent().hasClass('slider_controls')){
+    if($(this).parent().hasClass('slider_controls')){
         slide_target = $(this).index();
         pos = slide_target;
         clearInterval(intv);
-        intv = setInterval(handleClick,8000);
-    }
+        intv = setInterval(handleClick,10000);
+    }   
     else{
-        pos ++;
-        if(pos >=$('.slide').length){
+        pos++;
+        if(pos>=$('.slide').length){
             pos = 0;
         }
         slide_target = pos;
     }
-
-    /*
-        $('.slideContainer').animate({
-        $(this).animate({
-            'margin-left':-(slide_target * $('.slider_container').width())+'px'
-        },'slow');
-    */
-
-
-
-
-    $('.slideContainer').fadeOut('slow', function(){
+    $('.slideContainer').fadeOut('slow',function(){
         $(this).animate({
             'margin-left':-(slide_target * $('.slider_container').width())+'px'
         },'slow',function(){
             $(this).fadeIn();
-
         });
     });
 }
