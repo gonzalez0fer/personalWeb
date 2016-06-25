@@ -16,14 +16,16 @@ html {
     line-height: 1.4;
 }
 
+body  { background:url(../img/blueprints.jpg) top right no-repeat; background-attachment:fixed;}
+
 main {
 
   margin: 15%;
   margin-left: 10%;
   z-index: -1;
   width: 80%;
-  color: black;
-  background: rgba(255,255,255,0.8);
+  color: #f7f7f7;
+  background: rgba(0,0,0,0.8);
 }
 
 video{
@@ -56,33 +58,35 @@ h1.social{
 
 h1 a{
   text-decoration:none;
-  color:black;
+  color:#f7f7f7;
   display: inline-block;
 }
 
-h1.social:hover, h1 a:hover {color: red;}
+h1.social:hover, h1 a:hover {color: #0066cc;}
 
 
 
 
 
-a{text-decoration: none; color:black;}
-a:hover{text-decoration: none;color: blue;}
+a{text-decoration: none; color:#f7f7f7;font-weight: bold}
+a:hover{text-decoration: none;color: gray;}
 
 h2{
     margin-left: 3%;
-    color: red;     
+    color: gray;  
+    font-family: manteka;
+
 }
 
 h4{
     margin-left: 3%;
-    color: red;     
+    color: #f7f7f7;     
 }
 
 h2.name{
   margin-left: 24%;
   margin-top: -15%;
-  color: black;
+  color: #f7f7f7;
   font-size: 160%;
 }
 
@@ -110,31 +114,106 @@ img.redondo{
 
 }
 
-img.redondop{
-  border: 2px solid gray;
 
+
+
+.programa{
+  margin-top: 10%;
+}
+
+
+
+
+
+
+
+.titulo{
+  font-family: manteka;
   margin-top: 20%;
-  margin-left: 15%;
-  border-radius: 800px;
-  overflow: hidden;
-  width: 10%;
-  filter:grayscale(100%) blur(2px);
-    transition: all 0.4s;
+  margin-left: 10%;
 }
 
 
-img.redondop:hover{
-  width:12%;
-  border: 5px solid yellow;
-  filter: grayscale(0.2) blur(0px)
+.mensajePrincipal{
+  width: 40%
+  padding-top:10%;
+  color: #f7f7f7;
+  z-index: 0;
 
 }
 
+  .mensajePrincipal h1 {
+    color: #ededed;
+    margin-left: 5%;
+    margin-bottom: -3%;
+    font-size: 1.5em;
+    text-shadow: 5px 5px 7px #000; }
 
-.selector{
-z-index: -5;
-}
+  .mensajePrincipal2 h1 {
+    color: #ededed;
+    margin-left: 24%;
+    margin-bottom: -3%;
+    margin-top: -17%;
+    font-size: 1.9em;
+    text-shadow: 5px 5px 7px #000; }
 
+  .mensajePrincipal h2 {
+    margin-top: -12%;
+    margin-left: 22%;
+    color: #ededed;
+    font-size: 2em;
+    text-shadow: 5px 5px 7px #000; }
+  .mensajePrincipal2 h2 {
+    margin-top: -12%;
+    margin-left: 22%;
+    color: #ededed;
+    font-size: 2em;
+    text-shadow: 5px 5px 7px #000; }
+
+  .mensajePrincipal p {
+    margin-top: 4%;
+    margin-left: 25%;
+    color: #ededed;
+    font-size: 1.4em;
+    text-shadow: 5px 5px 7px #000;
+    font-weight: bolder;
+    text-align: justify; }  
+
+    .mensajePrincipal2 p {
+    margin-top: 4%;
+    margin-left: 25%;
+    color: #ededed;
+    font-size: 1.4em;
+    text-shadow: 5px 5px 7px #000;
+    font-weight: bolder;
+    text-align: justify; }
+
+    .mensajePrincipal .triangle {
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-left: 190px solid rgba(255,255,255,0.35);
+    border-bottom: 100px solid transparent; }
+        .mensajePrincipal2 .triangle {
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-left: 190px solid rgba(255,255,255,0.35);
+    border-bottom: 100px solid transparent; }
+    .mensajePrincipal .triangle span {
+      line-height: 2em;
+      display: block;
+      width: 130px;
+      top: -4em;
+      left: -160px;
+      position: relative; }
+          .mensajePrincipal2 .triangle span {
+      line-height: 2em;
+      display: block;
+      width: 130px;
+      top: -4em;
+      left: -160px;
+      position: relative; }
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
