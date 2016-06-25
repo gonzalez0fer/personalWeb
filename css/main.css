@@ -16,7 +16,6 @@ html {
     line-height: 1.4;
 }
 
-body  { background:url(../img/blueprints.jpg) top right no-repeat; background-attachment:fixed;}
 
 main {
 
@@ -69,7 +68,7 @@ h1.social:hover, h1 a:hover {color: #0066cc;}
 
 
 a{text-decoration: none; color:#f7f7f7;font-weight: bold}
-a:hover{text-decoration: none;color: gray;}
+a:hover{text-decoration: none;color: #0066cc;}
 
 h2{
     margin-left: 3%;
