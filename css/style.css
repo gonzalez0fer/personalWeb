@@ -128,21 +128,20 @@ header {
       width: 100px; }
 
 .slider_container {
-  position: fixed;
+  position: absolute;
   overflow: hidden;
-  top: 0;
+  top: 0px;
   left: 0;
   z-index: -2;
-  background-color: #020003; }
+  background-color: #000; }
   .slider_container .slideContainer {
     white-space: nowrap;
     height: 100%; }
     .slider_container .slideContainer .slide {
       display: inline-block;
-      background-color: red;
-      margin-right: -4.5px;
+      background-color: #fff;
+      margin-right: -4px;
       vertical-align: top;
       background-size: 100%;
       background-position: bottom; }
-
 /*# sourceMappingURL=style.css.map */
